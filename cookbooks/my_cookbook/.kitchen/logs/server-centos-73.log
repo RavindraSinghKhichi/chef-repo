@@ -1,0 +1,352 @@
+<<<<<<< HEAD
+I, [2017-06-20T21:50:48.255628 #2753]  INFO -- server-centos-73: -----> Creating <server-centos-73>...
+I, [2017-06-20T21:50:49.839512 #2753]  INFO -- server-centos-73: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2017-06-20T21:50:49.981155 #2753]  INFO -- server-centos-73: ==> default: Importing base box 'bento/centos-7.3'...
+I, [2017-06-20T21:51:05.664700 #2753]  INFO -- server-centos-73: [KProgress: 20%[KProgress: 30%[KProgress: 50%[KProgress: 70%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2017-06-20T21:51:05.917219 #2753]  INFO -- server-centos-73: ==> default: Checking if box 'bento/centos-7.3' is up to date...
+I, [2017-06-20T21:51:09.278320 #2753]  INFO -- server-centos-73: ==> default: Setting the name of the VM: kitchen-my_cookbook-server-centos-73_default_1497975669223_59018
+I, [2017-06-20T21:51:10.438768 #2753]  INFO -- server-centos-73: ==> default: Fixed port collision for 22 => 2222. Now on port 2202.
+I, [2017-06-20T21:51:10.966741 #2753]  INFO -- server-centos-73: ==> default: Clearing any previously set network interfaces...
+I, [2017-06-20T21:51:11.074156 #2753]  INFO -- server-centos-73: ==> default: Preparing network interfaces based on configuration...
+I, [2017-06-20T21:51:11.074540 #2753]  INFO -- server-centos-73:     default: Adapter 1: nat
+I, [2017-06-20T21:51:11.175337 #2753]  INFO -- server-centos-73: ==> default: Forwarding ports...
+I, [2017-06-20T21:51:11.325528 #2753]  INFO -- server-centos-73:     default: 22 (guest) => 2202 (host) (adapter 1)
+I, [2017-06-20T21:51:11.657282 #2753]  INFO -- server-centos-73: ==> default: Booting VM...
+I, [2017-06-20T21:51:13.295461 #2753]  INFO -- server-centos-73: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2017-06-20T21:51:13.778540 #2753]  INFO -- server-centos-73:     default: SSH address: 127.0.0.1:2202
+I, [2017-06-20T21:51:13.778853 #2753]  INFO -- server-centos-73:     default: SSH username: vagrant
+I, [2017-06-20T21:51:13.779326 #2753]  INFO -- server-centos-73:     default: SSH auth method: private key
+I, [2017-06-20T21:51:36.599170 #2753]  INFO -- server-centos-73:     default: Warning: Connection reset. Retrying...
+I, [2017-06-20T21:51:36.978141 #2753]  INFO -- server-centos-73:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-06-20T21:51:47.489782 #2753]  INFO -- server-centos-73:     default: 
+I, [2017-06-20T21:51:47.489902 #2753]  INFO -- server-centos-73:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2017-06-20T21:51:47.489947 #2753]  INFO -- server-centos-73:     default: this with a newly generated keypair for better security.
+I, [2017-06-20T21:51:50.563056 #2753]  INFO -- server-centos-73:     default: 
+I, [2017-06-20T21:51:50.563177 #2753]  INFO -- server-centos-73:     default: Inserting generated public key within guest...
+I, [2017-06-20T21:51:51.111041 #2753]  INFO -- server-centos-73:     default: Removing insecure key from the guest if it's present...
+I, [2017-06-20T21:51:51.593328 #2753]  INFO -- server-centos-73:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2017-06-20T21:51:53.310557 #2753]  INFO -- server-centos-73: ==> default: Machine booted and ready!
+I, [2017-06-20T21:51:53.311677 #2753]  INFO -- server-centos-73: ==> default: Checking for guest additions in VM...
+I, [2017-06-20T21:51:53.404369 #2753]  INFO -- server-centos-73: ==> default: Setting hostname...
+I, [2017-06-20T21:51:55.220120 #2753]  INFO -- server-centos-73: ==> default: Mounting shared folders...
+I, [2017-06-20T21:51:55.220583 #2753]  INFO -- server-centos-73:     default: /tmp/omnibus/cache => /root/.kitchen/cache
+I, [2017-06-20T21:51:56.884231 #2753]  INFO -- server-centos-73: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2017-06-20T21:52:00.256485 #2753]  INFO -- server-centos-73: [SSH] Established
+I, [2017-06-20T21:52:00.256918 #2753]  INFO -- server-centos-73: Vagrant instance <server-centos-73> created.
+I, [2017-06-20T21:52:00.257971 #2753]  INFO -- server-centos-73: Finished creating <server-centos-73> (1m12.00s).
+I, [2017-06-20T21:52:00.258128 #2753]  INFO -- server-centos-73: -----> Converging <server-centos-73>...
+I, [2017-06-20T21:52:00.258930 #2753]  INFO -- server-centos-73: Preparing files for transfer
+I, [2017-06-20T21:52:00.259083 #2753]  INFO -- server-centos-73: Preparing dna.json
+I, [2017-06-20T21:52:00.259381 #2753]  INFO -- server-centos-73: Resolving cookbook dependencies with Berkshelf 5.6.4...
+I, [2017-06-20T21:52:09.151085 #2753]  INFO -- server-centos-73: Removing non-cookbook files before transfer
+I, [2017-06-20T21:52:09.156060 #2753]  INFO -- server-centos-73: Preparing validation.pem
+I, [2017-06-20T21:52:09.156910 #2753]  INFO -- server-centos-73: Preparing client.rb
+I, [2017-06-20T21:52:09.215505 #2753]  INFO -- server-centos-73: -----> Installing Chef Omnibus (install only if missing)
+I, [2017-06-20T21:52:09.217925 #2753]  INFO -- server-centos-73: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2017-06-20T21:52:09.218006 #2753]  INFO -- server-centos-73: Trying wget...
+I, [2017-06-20T21:52:11.030051 #2753]  INFO -- server-centos-73: Download complete.
+I, [2017-06-20T21:52:11.135001 #2753]  INFO -- server-centos-73: el 7 x86_64
+I, [2017-06-20T21:52:11.135152 #2753]  INFO -- server-centos-73: Getting information for chef stable  for el...
+I, [2017-06-20T21:52:11.135210 #2753]  INFO -- server-centos-73: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=7&m=x86_64
+I, [2017-06-20T21:52:11.135256 #2753]  INFO -- server-centos-73:   to file /tmp/install.sh.3981/metadata.txt
+I, [2017-06-20T21:52:11.136990 #2753]  INFO -- server-centos-73: trying wget...
+I, [2017-06-20T21:52:12.177777 #2753]  INFO -- server-centos-73: sha1	65c046c91a7186a28af9642e3cffcd72296cf602
+I, [2017-06-20T21:52:12.177976 #2753]  INFO -- server-centos-73: sha256	b8397ea2a33a3f4c860daac1cb0714a11d8dad5287b0eb7054e8432d484f9f2c
+I, [2017-06-20T21:52:12.178044 #2753]  INFO -- server-centos-73: url	https://packages.chef.io/files/stable/chef/13.1.31/el/7/chef-13.1.31-1.el7.x86_64.rpm
+I, [2017-06-20T21:52:12.178095 #2753]  INFO -- server-centos-73: version	13.1.31
+I, [2017-06-20T21:52:12.182864 #2753]  INFO -- server-centos-73: downloaded metadata file looks valid...
+I, [2017-06-20T21:52:12.204939 #2753]  INFO -- server-centos-73: /tmp/omnibus/cache/chef-13.1.31-1.el7.x86_64.rpm already exists, verifiying checksum...
+I, [2017-06-20T21:52:12.205072 #2753]  INFO -- server-centos-73: Comparing checksum with sha256sum...
+I, [2017-06-20T21:52:12.769807 #2753]  INFO -- server-centos-73: checksum compare succeeded, using existing file!
+I, [2017-06-20T21:52:12.769989 #2753]  INFO -- server-centos-73: 
+I, [2017-06-20T21:52:12.770018 #2753]  INFO -- server-centos-73: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-06-20T21:52:12.770041 #2753]  INFO -- server-centos-73: 
+I, [2017-06-20T21:52:12.770059 #2753]  INFO -- server-centos-73: You are installing an omnibus package without a version pin.  If you are installing
+I, [2017-06-20T21:52:12.770079 #2753]  INFO -- server-centos-73: on production servers via an automated process this is DANGEROUS and you will
+I, [2017-06-20T21:52:12.770101 #2753]  INFO -- server-centos-73: be upgraded without warning on new releases, even to new major releases.
+I, [2017-06-20T21:52:12.770122 #2753]  INFO -- server-centos-73: Letting the version float is only appropriate in desktop, test, development or
+I, [2017-06-20T21:52:12.770142 #2753]  INFO -- server-centos-73: CI/CD environments.
+I, [2017-06-20T21:52:12.770175 #2753]  INFO -- server-centos-73: 
+I, [2017-06-20T21:52:12.770198 #2753]  INFO -- server-centos-73: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-06-20T21:52:12.770219 #2753]  INFO -- server-centos-73: 
+I, [2017-06-20T21:52:12.770239 #2753]  INFO -- server-centos-73: Installing chef 
+I, [2017-06-20T21:52:12.770258 #2753]  INFO -- server-centos-73: installing with rpm...
+I, [2017-06-20T21:52:13.273095 #2753]  INFO -- server-centos-73: warning: /tmp/omnibus/cache/chef-13.1.31-1.el7.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2017-06-20T21:52:14.378486 #2753]  INFO -- server-centos-73: Preparing...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2017-06-20T21:52:14.421246 #2753]  INFO -- server-centos-73: Updating / installing...
+I, [2017-06-20T21:52:25.165090 #2753]  INFO -- server-centos-73:    1:chef-13.1.31-1.el7                                                 (  2%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 52%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2017-06-20T21:52:26.218698 #2753]  INFO -- server-centos-73: Thank you for installing Chef!
+I, [2017-06-20T21:52:26.468113 #2753]  INFO -- server-centos-73: Transferring files to <server-centos-73>
+I, [2017-06-20T21:52:29.205127 #2753]  INFO -- server-centos-73: Starting Chef Client, version 13.1.31
+I, [2017-06-20T21:52:30.700609 #2753]  INFO -- server-centos-73: Creating a new client identity for server-centos-73 using the validator key.
+I, [2017-06-20T21:52:30.885160 #2753]  INFO -- server-centos-73: resolving cookbooks for run list: ["my_cookbook::server"]
+I, [2017-06-20T21:52:30.920990 #2753]  INFO -- server-centos-73: Synchronizing Cookbooks:
+I, [2017-06-20T21:52:30.926583 #2753]  INFO -- server-centos-73:   - my_cookbook (0.1.0)
+I, [2017-06-20T21:52:30.936696 #2753]  INFO -- server-centos-73: Installing Cookbook Gems:
+I, [2017-06-20T21:52:30.936797 #2753]  INFO -- server-centos-73: Compiling Cookbooks...
+I, [2017-06-20T21:52:30.936872 #2753]  INFO -- server-centos-73: 
+I, [2017-06-20T21:52:30.936908 #2753]  INFO -- server-centos-73: ================================================================================
+I, [2017-06-20T21:52:30.936939 #2753]  INFO -- server-centos-73: Recipe Compile Error
+I, [2017-06-20T21:52:30.936970 #2753]  INFO -- server-centos-73: ================================================================================
+I, [2017-06-20T21:52:30.937000 #2753]  INFO -- server-centos-73: 
+I, [2017-06-20T21:52:30.937032 #2753]  INFO -- server-centos-73: Chef::Exceptions::RecipeNotFound
+I, [2017-06-20T21:52:30.937063 #2753]  INFO -- server-centos-73: --------------------------------
+I, [2017-06-20T21:52:30.937091 #2753]  INFO -- server-centos-73: could not find recipe server for cookbook my_cookbook
+I, [2017-06-20T21:52:30.937119 #2753]  INFO -- server-centos-73: 
+I, [2017-06-20T21:52:30.937147 #2753]  INFO -- server-centos-73: System Info:
+I, [2017-06-20T21:52:30.937178 #2753]  INFO -- server-centos-73: ------------
+I, [2017-06-20T21:52:30.937207 #2753]  INFO -- server-centos-73: chef_version=13.1.31
+I, [2017-06-20T21:52:30.937235 #2753]  INFO -- server-centos-73: platform=centos
+I, [2017-06-20T21:52:30.937266 #2753]  INFO -- server-centos-73: platform_version=7.3.1611
+I, [2017-06-20T21:52:30.937293 #2753]  INFO -- server-centos-73: ruby=ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+I, [2017-06-20T21:52:30.937331 #2753]  INFO -- server-centos-73: program_name=chef-client worker: ppid=4108;start=16:22:29;
+I, [2017-06-20T21:52:30.937364 #2753]  INFO -- server-centos-73: executable=/opt/chef/bin/chef-client
+I, [2017-06-20T21:52:30.937391 #2753]  INFO -- server-centos-73: 
+I, [2017-06-20T21:52:30.937420 #2753]  INFO -- server-centos-73: 
+I, [2017-06-20T21:52:30.937446 #2753]  INFO -- server-centos-73: Running handlers:
+I, [2017-06-20T21:52:30.937475 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] ERROR: Running exception handlers
+I, [2017-06-20T21:52:30.937510 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] ERROR: Running exception handlers
+I, [2017-06-20T21:52:30.937537 #2753]  INFO -- server-centos-73: Running handlers complete
+I, [2017-06-20T21:52:30.937574 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] ERROR: Exception handlers complete
+I, [2017-06-20T21:52:30.937609 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] ERROR: Exception handlers complete
+I, [2017-06-20T21:52:30.937637 #2753]  INFO -- server-centos-73: Chef Client failed. 0 resources updated in 01 seconds
+I, [2017-06-20T21:52:30.937659 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2017-06-20T21:52:30.937694 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2017-06-20T21:52:30.937718 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2017-06-20T21:52:30.937739 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2017-06-20T21:52:30.937766 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] ERROR: could not find recipe server for cookbook my_cookbook
+I, [2017-06-20T21:52:30.937796 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] ERROR: could not find recipe server for cookbook my_cookbook
+I, [2017-06-20T21:52:30.948265 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+I, [2017-06-20T21:52:30.948359 #2753]  INFO -- server-centos-73: [2017-06-20T16:22:30+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2017-06-20T21:52:30.955595 #2753] ERROR -- server-centos-73: Converge failed on instance <server-centos-73>.
+E, [2017-06-20T21:52:30.955711 #2753] ERROR -- server-centos-73: ------Exception-------
+E, [2017-06-20T21:52:30.955739 #2753] ERROR -- server-centos-73: Class: Kitchen::ActionFailed
+E, [2017-06-20T21:52:30.955759 #2753] ERROR -- server-centos-73: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2017-06-20T21:52:30.955777 #2753] ERROR -- server-centos-73: ----------------------
+E, [2017-06-20T21:52:30.955793 #2753] ERROR -- server-centos-73: ------Backtrace-------
+E, [2017-06-20T21:52:30.955841 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2017-06-20T21:52:30.955859 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2017-06-20T21:52:30.955873 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:384:in `block in converge_action'
+E, [2017-06-20T21:52:30.955890 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-06-20T21:52:30.955913 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-06-20T21:52:30.955932 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-06-20T21:52:30.955948 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-06-20T21:52:30.955964 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:380:in `converge_action'
+E, [2017-06-20T21:52:30.955980 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-06-20T21:52:30.955996 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-06-20T21:52:30.956011 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-06-20T21:52:30.956027 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:157:in `verify'
+E, [2017-06-20T21:52:30.956043 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-06-20T21:52:30.956059 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-06-20T21:52:30.956075 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-06-20T21:52:30.956091 #2753] ERROR -- server-centos-73: ----End Backtrace-----
+E, [2017-06-20T21:52:30.956106 #2753] ERROR -- server-centos-73: ---Nested Exception---
+E, [2017-06-20T21:52:30.956122 #2753] ERROR -- server-centos-73: Class: Kitchen::Transport::SshFailed
+E, [2017-06-20T21:52:30.956137 #2753] ERROR -- server-centos-73: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2017-06-20T21:52:30.956157 #2753] ERROR -- server-centos-73: ----------------------
+E, [2017-06-20T21:52:30.956172 #2753] ERROR -- server-centos-73: ------Backtrace-------
+E, [2017-06-20T21:52:30.956211 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2017-06-20T21:52:30.956230 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2017-06-20T21:52:30.956246 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:384:in `block in converge_action'
+E, [2017-06-20T21:52:30.956262 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-06-20T21:52:30.956278 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-06-20T21:52:30.956310 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-06-20T21:52:30.956338 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-06-20T21:52:30.956364 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:380:in `converge_action'
+E, [2017-06-20T21:52:30.956395 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-06-20T21:52:30.956429 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-06-20T21:52:30.956458 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-06-20T21:52:30.956476 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:157:in `verify'
+E, [2017-06-20T21:52:30.956492 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-06-20T21:52:30.956508 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-06-20T21:52:30.956524 #2753] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-06-20T21:52:30.956545 #2753] ERROR -- server-centos-73: ----End Backtrace-----
+=======
+I, [2017-06-29T15:30:01.594325 #4310]  INFO -- server-centos-73: -----> Cleaning up any prior instances of <server-centos-73>
+I, [2017-06-29T15:30:01.611532 #4310]  INFO -- server-centos-73: -----> Destroying <server-centos-73>...
+I, [2017-06-29T15:30:03.978701 #4310]  INFO -- server-centos-73: ==> default: VM not created. Moving on...
+I, [2017-06-29T15:30:04.031897 #4310]  INFO -- server-centos-73: Vagrant instance <server-centos-73> destroyed.
+I, [2017-06-29T15:30:04.033171 #4310]  INFO -- server-centos-73: Finished destroying <server-centos-73> (0m2.42s).
+I, [2017-06-29T15:30:04.033733 #4310]  INFO -- server-centos-73: -----> Testing <server-centos-73>
+I, [2017-06-29T15:30:04.033989 #4310]  INFO -- server-centos-73: -----> Creating <server-centos-73>...
+I, [2017-06-29T15:30:05.981536 #4310]  INFO -- server-centos-73: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2017-06-29T15:30:06.203246 #4310]  INFO -- server-centos-73: ==> default: Importing base box 'bento/centos-7.3'...
+I, [2017-06-29T15:30:23.774088 #4310]  INFO -- server-centos-73: [KProgress: 20%[KProgress: 30%[KProgress: 50%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2017-06-29T15:30:24.512333 #4310]  INFO -- server-centos-73: ==> default: Checking if box 'bento/centos-7.3' is up to date...
+I, [2017-06-29T15:30:27.675547 #4310]  INFO -- server-centos-73: ==> default: A newer version of the box 'bento/centos-7.3' is available! You currently
+I, [2017-06-29T15:30:27.675908 #4310]  INFO -- server-centos-73: ==> default: have version '2.3.5'. The latest is version '2.3.7'. Run
+I, [2017-06-29T15:30:27.676118 #4310]  INFO -- server-centos-73: ==> default: `vagrant box update` to update.
+I, [2017-06-29T15:30:29.010937 #4310]  INFO -- server-centos-73: ==> default: Setting the name of the VM: kitchen-my_cookbook-server-centos-73_default_1498730428908_480
+I, [2017-06-29T15:30:30.142434 #4310]  INFO -- server-centos-73: ==> default: Fixed port collision for 22 => 2222. Now on port 2200.
+I, [2017-06-29T15:30:30.847609 #4310]  INFO -- server-centos-73: ==> default: Clearing any previously set network interfaces...
+I, [2017-06-29T15:30:31.021136 #4310]  INFO -- server-centos-73: ==> default: Preparing network interfaces based on configuration...
+I, [2017-06-29T15:30:31.022097 #4310]  INFO -- server-centos-73:     default: Adapter 1: nat
+I, [2017-06-29T15:30:31.205341 #4310]  INFO -- server-centos-73: ==> default: Forwarding ports...
+I, [2017-06-29T15:30:31.454949 #4310]  INFO -- server-centos-73:     default: 22 (guest) => 2200 (host) (adapter 1)
+I, [2017-06-29T15:30:31.999935 #4310]  INFO -- server-centos-73: ==> default: Booting VM...
+I, [2017-06-29T15:30:34.293459 #4310]  INFO -- server-centos-73: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2017-06-29T15:30:35.029079 #4310]  INFO -- server-centos-73:     default: SSH address: 127.0.0.1:2200
+I, [2017-06-29T15:30:35.029348 #4310]  INFO -- server-centos-73:     default: SSH username: vagrant
+I, [2017-06-29T15:30:35.029787 #4310]  INFO -- server-centos-73:     default: SSH auth method: private key
+I, [2017-06-29T15:31:08.700228 #4310]  INFO -- server-centos-73:     default: 
+I, [2017-06-29T15:31:08.700387 #4310]  INFO -- server-centos-73:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2017-06-29T15:31:08.700463 #4310]  INFO -- server-centos-73:     default: this with a newly generated keypair for better security.
+I, [2017-06-29T15:31:12.601816 #4310]  INFO -- server-centos-73:     default: 
+I, [2017-06-29T15:31:12.601969 #4310]  INFO -- server-centos-73:     default: Inserting generated public key within guest...
+I, [2017-06-29T15:31:13.112671 #4310]  INFO -- server-centos-73:     default: Removing insecure key from the guest if it's present...
+I, [2017-06-29T15:31:13.593069 #4310]  INFO -- server-centos-73:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2017-06-29T15:31:15.322567 #4310]  INFO -- server-centos-73: ==> default: Machine booted and ready!
+I, [2017-06-29T15:31:15.324164 #4310]  INFO -- server-centos-73: ==> default: Checking for guest additions in VM...
+I, [2017-06-29T15:31:15.474344 #4310]  INFO -- server-centos-73: ==> default: Setting hostname...
+I, [2017-06-29T15:31:17.473886 #4310]  INFO -- server-centos-73: ==> default: Mounting shared folders...
+I, [2017-06-29T15:31:17.474365 #4310]  INFO -- server-centos-73:     default: /tmp/omnibus/cache => /root/.kitchen/cache
+I, [2017-06-29T15:31:19.188867 #4310]  INFO -- server-centos-73: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2017-06-29T15:31:23.121363 #4310]  INFO -- server-centos-73: [SSH] Established
+I, [2017-06-29T15:31:23.121850 #4310]  INFO -- server-centos-73: Vagrant instance <server-centos-73> created.
+I, [2017-06-29T15:31:23.123033 #4310]  INFO -- server-centos-73: Finished creating <server-centos-73> (1m19.09s).
+I, [2017-06-29T15:31:23.123227 #4310]  INFO -- server-centos-73: -----> Converging <server-centos-73>...
+I, [2017-06-29T15:31:23.124278 #4310]  INFO -- server-centos-73: Preparing files for transfer
+I, [2017-06-29T15:31:23.124457 #4310]  INFO -- server-centos-73: Preparing dna.json
+I, [2017-06-29T15:31:23.125242 #4310]  INFO -- server-centos-73: Resolving cookbook dependencies with Berkshelf 5.6.4...
+I, [2017-06-29T15:31:28.491431 #4310]  INFO -- server-centos-73: Removing non-cookbook files before transfer
+I, [2017-06-29T15:31:28.498356 #4310]  INFO -- server-centos-73: Preparing validation.pem
+I, [2017-06-29T15:31:28.499114 #4310]  INFO -- server-centos-73: Preparing client.rb
+I, [2017-06-29T15:31:28.548191 #4310]  INFO -- server-centos-73: -----> Installing Chef Omnibus (install only if missing)
+I, [2017-06-29T15:31:28.548503 #4310]  INFO -- server-centos-73: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2017-06-29T15:31:28.548613 #4310]  INFO -- server-centos-73: Trying wget...
+I, [2017-06-29T15:31:29.193128 #4310]  INFO -- server-centos-73: Download complete.
+I, [2017-06-29T15:31:29.229109 #4310]  INFO -- server-centos-73: el 7 x86_64
+I, [2017-06-29T15:31:29.229232 #4310]  INFO -- server-centos-73: Getting information for chef stable  for el...
+I, [2017-06-29T15:31:29.229284 #4310]  INFO -- server-centos-73: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=7&m=x86_64
+I, [2017-06-29T15:31:29.229327 #4310]  INFO -- server-centos-73:   to file /tmp/install.sh.4036/metadata.txt
+I, [2017-06-29T15:31:29.230098 #4310]  INFO -- server-centos-73: trying wget...
+I, [2017-06-29T15:31:29.550510 #4310]  INFO -- server-centos-73: sha1	65c046c91a7186a28af9642e3cffcd72296cf602
+I, [2017-06-29T15:31:29.550867 #4310]  INFO -- server-centos-73: sha256	b8397ea2a33a3f4c860daac1cb0714a11d8dad5287b0eb7054e8432d484f9f2c
+I, [2017-06-29T15:31:29.551067 #4310]  INFO -- server-centos-73: url	https://packages.chef.io/files/stable/chef/13.1.31/el/7/chef-13.1.31-1.el7.x86_64.rpm
+I, [2017-06-29T15:31:29.551226 #4310]  INFO -- server-centos-73: version	13.1.31
+I, [2017-06-29T15:31:29.556936 #4310]  INFO -- server-centos-73: downloaded metadata file looks valid...
+I, [2017-06-29T15:31:29.582022 #4310]  INFO -- server-centos-73: /tmp/omnibus/cache/chef-13.1.31-1.el7.x86_64.rpm already exists, verifiying checksum...
+I, [2017-06-29T15:31:29.582156 #4310]  INFO -- server-centos-73: Comparing checksum with sha256sum...
+I, [2017-06-29T15:31:30.236718 #4310]  INFO -- server-centos-73: checksum compare succeeded, using existing file!
+I, [2017-06-29T15:31:30.236899 #4310]  INFO -- server-centos-73: 
+I, [2017-06-29T15:31:30.236990 #4310]  INFO -- server-centos-73: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-06-29T15:31:30.237031 #4310]  INFO -- server-centos-73: 
+I, [2017-06-29T15:31:30.237068 #4310]  INFO -- server-centos-73: You are installing an omnibus package without a version pin.  If you are installing
+I, [2017-06-29T15:31:30.237154 #4310]  INFO -- server-centos-73: on production servers via an automated process this is DANGEROUS and you will
+I, [2017-06-29T15:31:30.237213 #4310]  INFO -- server-centos-73: be upgraded without warning on new releases, even to new major releases.
+I, [2017-06-29T15:31:30.237267 #4310]  INFO -- server-centos-73: Letting the version float is only appropriate in desktop, test, development or
+I, [2017-06-29T15:31:30.237303 #4310]  INFO -- server-centos-73: CI/CD environments.
+I, [2017-06-29T15:31:30.237354 #4310]  INFO -- server-centos-73: 
+I, [2017-06-29T15:31:30.237388 #4310]  INFO -- server-centos-73: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-06-29T15:31:30.237424 #4310]  INFO -- server-centos-73: 
+I, [2017-06-29T15:31:30.237457 #4310]  INFO -- server-centos-73: Installing chef 
+I, [2017-06-29T15:31:30.237507 #4310]  INFO -- server-centos-73: installing with rpm...
+I, [2017-06-29T15:31:30.619507 #4310]  INFO -- server-centos-73: warning: /tmp/omnibus/cache/chef-13.1.31-1.el7.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2017-06-29T15:31:31.813927 #4310]  INFO -- server-centos-73: Preparing...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2017-06-29T15:31:31.851829 #4310]  INFO -- server-centos-73: Updating / installing...
+I, [2017-06-29T15:31:45.757893 #4310]  INFO -- server-centos-73:    1:chef-13.1.31-1.el7                                                 (  2%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 52%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2017-06-29T15:31:47.154113 #4310]  INFO -- server-centos-73: Thank you for installing Chef!
+I, [2017-06-29T15:31:47.624434 #4310]  INFO -- server-centos-73: Transferring files to <server-centos-73>
+I, [2017-06-29T15:31:52.876059 #4310]  INFO -- server-centos-73: Starting Chef Client, version 13.1.31
+I, [2017-06-29T15:31:56.726330 #4310]  INFO -- server-centos-73: Creating a new client identity for server-centos-73 using the validator key.
+I, [2017-06-29T15:31:56.886072 #4310]  INFO -- server-centos-73: resolving cookbooks for run list: ["my_cookbook::server"]
+I, [2017-06-29T15:31:56.886205 #4310]  INFO -- server-centos-73: Synchronizing Cookbooks:
+I, [2017-06-29T15:31:56.892033 #4310]  INFO -- server-centos-73:   - my_cookbook (0.1.0)
+I, [2017-06-29T15:31:56.902386 #4310]  INFO -- server-centos-73: Installing Cookbook Gems:
+I, [2017-06-29T15:31:56.902525 #4310]  INFO -- server-centos-73: Compiling Cookbooks...
+I, [2017-06-29T15:31:56.902597 #4310]  INFO -- server-centos-73: 
+I, [2017-06-29T15:31:56.902652 #4310]  INFO -- server-centos-73: ================================================================================
+I, [2017-06-29T15:31:56.902710 #4310]  INFO -- server-centos-73: Recipe Compile Error
+I, [2017-06-29T15:31:56.902879 #4310]  INFO -- server-centos-73: ================================================================================
+I, [2017-06-29T15:31:56.902943 #4310]  INFO -- server-centos-73: 
+I, [2017-06-29T15:31:56.903023 #4310]  INFO -- server-centos-73: Chef::Exceptions::RecipeNotFound
+I, [2017-06-29T15:31:56.903083 #4310]  INFO -- server-centos-73: --------------------------------
+I, [2017-06-29T15:31:56.903131 #4310]  INFO -- server-centos-73: could not find recipe server for cookbook my_cookbook
+I, [2017-06-29T15:31:56.903178 #4310]  INFO -- server-centos-73: 
+I, [2017-06-29T15:31:56.903230 #4310]  INFO -- server-centos-73: System Info:
+I, [2017-06-29T15:31:56.903277 #4310]  INFO -- server-centos-73: ------------
+I, [2017-06-29T15:31:56.903324 #4310]  INFO -- server-centos-73: chef_version=13.1.31
+I, [2017-06-29T15:31:56.903370 #4310]  INFO -- server-centos-73: platform=centos
+I, [2017-06-29T15:31:56.903418 #4310]  INFO -- server-centos-73: platform_version=7.3.1611
+I, [2017-06-29T15:31:56.903472 #4310]  INFO -- server-centos-73: ruby=ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+I, [2017-06-29T15:31:56.903521 #4310]  INFO -- server-centos-73: program_name=chef-client worker: ppid=4161;start=10:01:52;
+I, [2017-06-29T15:31:56.903569 #4310]  INFO -- server-centos-73: executable=/opt/chef/bin/chef-client
+I, [2017-06-29T15:31:56.903626 #4310]  INFO -- server-centos-73: 
+I, [2017-06-29T15:31:56.903674 #4310]  INFO -- server-centos-73: 
+I, [2017-06-29T15:31:56.903721 #4310]  INFO -- server-centos-73: Running handlers:
+I, [2017-06-29T15:31:56.903832 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] ERROR: Running exception handlers
+I, [2017-06-29T15:31:56.903884 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] ERROR: Running exception handlers
+I, [2017-06-29T15:31:56.903936 #4310]  INFO -- server-centos-73: Running handlers complete
+I, [2017-06-29T15:31:56.903992 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] ERROR: Exception handlers complete
+I, [2017-06-29T15:31:56.904042 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] ERROR: Exception handlers complete
+I, [2017-06-29T15:31:56.904091 #4310]  INFO -- server-centos-73: Chef Client failed. 0 resources updated in 04 seconds
+I, [2017-06-29T15:31:56.904147 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2017-06-29T15:31:56.904198 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2017-06-29T15:31:56.904247 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2017-06-29T15:31:56.904296 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2017-06-29T15:31:56.904353 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] ERROR: could not find recipe server for cookbook my_cookbook
+I, [2017-06-29T15:31:56.904403 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] ERROR: could not find recipe server for cookbook my_cookbook
+I, [2017-06-29T15:31:56.910369 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+I, [2017-06-29T15:31:56.910510 #4310]  INFO -- server-centos-73: [2017-06-29T10:01:56+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2017-06-29T15:31:56.920493 #4310] ERROR -- server-centos-73: Converge failed on instance <server-centos-73>.
+E, [2017-06-29T15:31:56.920674 #4310] ERROR -- server-centos-73: ------Exception-------
+E, [2017-06-29T15:31:56.920721 #4310] ERROR -- server-centos-73: Class: Kitchen::ActionFailed
+E, [2017-06-29T15:31:56.920802 #4310] ERROR -- server-centos-73: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2017-06-29T15:31:56.920856 #4310] ERROR -- server-centos-73: ----------------------
+E, [2017-06-29T15:31:56.920888 #4310] ERROR -- server-centos-73: ------Backtrace-------
+E, [2017-06-29T15:31:56.920933 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2017-06-29T15:31:56.920978 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2017-06-29T15:31:56.921028 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:384:in `block in converge_action'
+E, [2017-06-29T15:31:56.921089 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-06-29T15:31:56.921125 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-06-29T15:31:56.921159 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-06-29T15:31:56.921193 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-06-29T15:31:56.921226 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:380:in `converge_action'
+E, [2017-06-29T15:31:56.921264 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-06-29T15:31:56.921299 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-06-29T15:31:56.921333 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-06-29T15:31:56.921367 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:157:in `verify'
+E, [2017-06-29T15:31:56.921400 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:186:in `block in test'
+E, [2017-06-29T15:31:56.921433 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-06-29T15:31:56.921467 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:182:in `test'
+E, [2017-06-29T15:31:56.921500 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-06-29T15:31:56.921534 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-06-29T15:31:56.921567 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-06-29T15:31:56.921600 #4310] ERROR -- server-centos-73: ----End Backtrace-----
+E, [2017-06-29T15:31:56.921636 #4310] ERROR -- server-centos-73: ---Nested Exception---
+E, [2017-06-29T15:31:56.921671 #4310] ERROR -- server-centos-73: Class: Kitchen::Transport::SshFailed
+E, [2017-06-29T15:31:56.921704 #4310] ERROR -- server-centos-73: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2017-06-29T15:31:56.921737 #4310] ERROR -- server-centos-73: ----------------------
+E, [2017-06-29T15:31:56.921851 #4310] ERROR -- server-centos-73: ------Backtrace-------
+E, [2017-06-29T15:31:56.921895 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2017-06-29T15:31:56.921931 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2017-06-29T15:31:56.921965 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:384:in `block in converge_action'
+E, [2017-06-29T15:31:56.921999 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-06-29T15:31:56.922032 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-06-29T15:31:56.922066 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-06-29T15:31:56.922099 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-06-29T15:31:56.922137 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:380:in `converge_action'
+E, [2017-06-29T15:31:56.922171 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-06-29T15:31:56.922204 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-06-29T15:31:56.922239 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-06-29T15:31:56.922273 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:157:in `verify'
+E, [2017-06-29T15:31:56.922306 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:186:in `block in test'
+E, [2017-06-29T15:31:56.922339 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-06-29T15:31:56.922372 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:182:in `test'
+E, [2017-06-29T15:31:56.922406 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-06-29T15:31:56.922439 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-06-29T15:31:56.922475 #4310] ERROR -- server-centos-73: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-06-29T15:31:56.922509 #4310] ERROR -- server-centos-73: ----End Backtrace-----
+>>>>>>> before custom resource

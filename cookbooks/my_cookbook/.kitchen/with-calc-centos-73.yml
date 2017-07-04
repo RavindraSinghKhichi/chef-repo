@@ -1,0 +1,7 @@
+---
+hostname: 127.0.0.1
+port: '2222'
+username: vagrant
+ssh_key: "/home/ravi/chef-repo/cookbooks/my_cookbook/.kitchen/kitchen-vagrant/kitchen-my_cookbook-with-calc-centos-73/.vagrant/machines/default/virtualbox/private_key"
+last_action: create
+last_error: Kitchen::ActionFailed

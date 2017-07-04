@@ -1,0 +1,12 @@
+---
+hostname: 127.0.0.1
+port: '2200'
+username: vagrant
+<<<<<<< HEAD
+ssh_key: "/home/ravi/ravindra-chef/chef-repo/cookbooks/my_cookbook/.kitchen/kitchen-vagrant/kitchen-my_cookbook-default-centos-73/.vagrant/machines/default/virtualbox/private_key"
+last_action: verify
+=======
+ssh_key: "/home/ravi/chef-repo/cookbooks/my_cookbook/.kitchen/kitchen-vagrant/kitchen-my_cookbook-default-centos-73/.vagrant/machines/default/virtualbox/private_key"
+last_action: converge
+>>>>>>> before custom resource
+last_error: 

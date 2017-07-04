@@ -1,0 +1,27 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  always_update_cookbooks: true
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: centos-7.3
+suites:
+  - name: default
+    run_list:
+      - recipe[my_cookbook::default]
+  - name: with_role
+    run_list:
+      - role[my_cookbook_role]
+  - name: with_calc_role
+    run_list:
+      - role[calculator_role]
+    verifier:
+      inspec_tests:
+        - test/smoke/default
+    attributes:
