@@ -12,3 +12,4 @@ end
 #when name is given 
 httpd_resource 'httpd' do 
   homepage '<h1>Name is given to the custom resource</h1>'
+end

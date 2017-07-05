@@ -23,3 +23,4 @@ template '/tmp/sudoers' do
     sudoers_users: node['authorization']['sudo']['users']
   )
 end
+
